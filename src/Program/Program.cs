@@ -6,7 +6,7 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            Greeter.GetInstance.SayHiToTheWorld();
+           Singleton<Greeter>.GetInstance().SayHiToTheWorld();
         }
     }
 }
