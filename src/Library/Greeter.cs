@@ -11,7 +11,7 @@ namespace Library
 
         private static Greeter instance;
 
-        public static Greeter Instance
+        public static Greeter GetInstance
         {
             get
             {
